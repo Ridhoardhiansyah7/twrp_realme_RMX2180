@@ -22,10 +22,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/twrp/config/common.mk)
 
-PRODUCT_DEVICE := RMX2185
-PRODUCT_NAME := twrp_RMX2185
+PRODUCT_DEVICE := RMX2180
+PRODUCT_NAME := twrp_RMX2180
 PRODUCT_BRAND := realme
-PRODUCT_MODEL := RMX2185
+PRODUCT_MODEL := RMX2180
 PRODUCT_MANUFACTURER := realme
 
 PRODUCT_SHIPPING_API_LEVEL := 29

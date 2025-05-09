@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/realme/RMX2185
+DEVICE_PATH := device/realme/RMX2180
 
 # Architecture
 TARGET_ARCH := arm64
@@ -43,7 +43,7 @@ TARGET_USES_UEFI := true
 TARGET_BOARD_PLATFORM := mt6765
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := RMX2185,rmx2185
+TARGET_OTA_ASSERT_DEVICE := RMX2180,rmx2180
 
 # Kernel
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2 androidboot.selinux=permissive
@@ -143,6 +143,8 @@ TW_NO_SCREEN_BLANK := true
 TW_SCREEN_BLANK_ON_BOOT := true
 TARGET_USES_MKE2FS := true
 TW_OZIP_DECRYPT_KEY := 0000
+TW_DEVICE_VERSION := RMX2180 by Aflahal
+TW_DEFAULT_LANGUAGE := id
 
 # resetprop and magiskboot
 TW_INCLUDE_RESETPROP := true

@@ -18,3 +18,4 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/twrp_RMX2180.mk
+    $(LOCAL_DIR)/pbrp_RMX2180.mk

@@ -1,5 +1,5 @@
 # Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 
 # Inherit some common pbrp stuff.
 $(call inherit-product-if-exists, vendor/pb/config/common.mk)
